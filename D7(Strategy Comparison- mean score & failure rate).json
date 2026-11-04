@@ -1,0 +1,4611 @@
+[
+  {
+    "prompt": "square",
+    "strategy": "Raw coordinates",
+    "score": 0,
+    "status": "Failure",
+    "error": "Invalid structure or values",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "square",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "rectangle",
+          "x": 4,
+          "y": 4,
+          "width": 4,
+          "height": 4
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "square",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 1,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 5
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "triangle",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "triangle",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            3
+          ],
+          "end": [
+            4,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            6
+          ],
+          "end": [
+            6,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            3
+          ],
+          "end": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "triangle",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 1,
+          "y": 1
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "rectangle",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "rectangle",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "rectangle",
+          "left": 0,
+          "bottom": 0,
+          "right": 10,
+          "top": 10
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "rectangle",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "diamond",
+    "strategy": "Raw coordinates",
+    "score": 0,
+    "status": "Failure",
+    "error": "HTTPConnectionPool(host='172.23.16.1', port=11434): Read timed out. (read timeout=120)",
+    "output": null
+  },
+  {
+    "prompt": "diamond",
+    "strategy": "Primitives",
+    "score": 0,
+    "status": "Failure",
+    "error": "HTTPConnectionPool(host='172.23.16.1', port=11434): Read timed out. (read timeout=120)",
+    "output": null
+  },
+  {
+    "prompt": "diamond",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 2
+        },
+        {
+          "op": "line_to",
+          "x": 8,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 9
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "pentagon",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "pentagon",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            2,
+            2
+          ],
+          "end": [
+            8,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8,
+            8
+          ],
+          "end": [
+            12,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            12,
+            6
+          ],
+          "end": [
+            6,
+            12
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            12
+          ],
+          "end": [
+            2,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            2,
+            8
+          ],
+          "end": [
+            6,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            6
+          ],
+          "end": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "pentagon",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 4,
+          "y": 2
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 4
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 2,
+          "y": 5
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "hexagon",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "hexagon",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            2,
+            2
+          ],
+          "end": [
+            6,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            6
+          ],
+          "end": [
+            10,
+            2
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            10,
+            2
+          ],
+          "end": [
+            4,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            8
+          ],
+          "end": [
+            0,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0,
+            6
+          ],
+          "end": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "hexagon",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 6
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 9,
+          "y": 6
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 6
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "house",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          9,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "house",
+    "strategy": "Primitives",
+    "score": 0,
+    "status": "Failure",
+    "error": "HTTPConnectionPool(host='172.23.16.1', port=11434): Read timed out. (read timeout=120)",
+    "output": null
+  },
+  {
+    "prompt": "house",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 2,
+          "y": 4
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 2
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "arrow",
+    "strategy": "Raw coordinates",
+    "score": 0,
+    "status": "Failure",
+    "error": "Invalid structure or values",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "arrow",
+    "strategy": "Primitives",
+    "score": 0,
+    "status": "Failure",
+    "error": "HTTPConnectionPool(host='172.23.16.1', port=11434): Read timed out. (read timeout=120)",
+    "output": null
+  },
+  {
+    "prompt": "arrow",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 6
+        },
+        {
+          "op": "line_to",
+          "x": 9,
+          "y": 9
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "five-point star",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "five-point star",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            7,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            3
+          ],
+          "end": [
+            3,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            5,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "five-point star",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 2
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 2,
+          "y": 10
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "heart",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "heart",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            3.5,
+            3.5
+          ],
+          "end": [
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4.5,
+            4.5
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3.5,
+            3.5
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4.5,
+            4.5
+          ],
+          "end": [
+            4,
+            4
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4.5,
+            4.5
+          ],
+          "end": [
+            4.5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4.5,
+            5
+          ],
+          "end": [
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            4.5,
+            4.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4.5,
+            4.5
+          ],
+          "end": [
+            4.5,
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "heart",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 6
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 6
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter A",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter A",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            1,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            8,
+            1
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8,
+            8
+          ],
+          "end": [
+            1,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8,
+            1
+          ],
+          "end": [
+            8,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            8
+          ],
+          "end": [
+            5,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            1
+          ],
+          "end": [
+            5,
+            1
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            8
+          ],
+          "end": [
+            5,
+            1
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            5
+          ],
+          "end": [
+            5,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter A",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 7
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter T",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter T",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            3,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            5
+          ],
+          "end": [
+            6,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            5
+          ],
+          "end": [
+            6,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            2,
+            6
+          ],
+          "end": [
+            2,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            6
+          ],
+          "end": [
+            7,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            1
+          ],
+          "end": [
+            6,
+            1
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            1
+          ],
+          "end": [
+            7,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            3
+          ],
+          "end": [
+            7,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            6
+          ],
+          "end": [
+            7,
+            8
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter T",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter H",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter H",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            3
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            3,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            5
+          ],
+          "end": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            5
+          ],
+          "end": [
+            4,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            7
+          ],
+          "end": [
+            5,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            7
+          ],
+          "end": [
+            5,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            9
+          ],
+          "end": [
+            6,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            9
+          ],
+          "end": [
+            6,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            7
+          ],
+          "end": [
+            7,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            7
+          ],
+          "end": [
+            7,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            5
+          ],
+          "end": [
+            7,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            3
+          ],
+          "end": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter H",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 1,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 1
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter E",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter E",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            3
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            3,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            5
+          ],
+          "end": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            5
+          ],
+          "end": [
+            4,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            7
+          ],
+          "end": [
+            2,
+            7
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter E",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 1
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter L",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter L",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            2,
+            2
+          ],
+          "end": [
+            3,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            8
+          ],
+          "end": [
+            8,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8,
+            8
+          ],
+          "end": [
+            8,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter L",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 1,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 9,
+          "y": 10
+        },
+        {
+          "op": "line_to",
+          "x": 1,
+          "y": 10
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter M",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter M",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            3,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            5
+          ],
+          "end": [
+            3,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            7
+          ],
+          "end": [
+            3,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            1,
+            9
+          ],
+          "end": [
+            3,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            1
+          ],
+          "end": [
+            7,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            3
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            5,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            7
+          ],
+          "end": [
+            5,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            9
+          ],
+          "end": [
+            5,
+            9
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter M",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 1,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 1
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter N",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter N",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            3
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            3,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            5
+          ],
+          "end": [
+            2,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            2,
+            5
+          ],
+          "end": [
+            2,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            2,
+            7
+          ],
+          "end": [
+            4,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            7
+          ],
+          "end": [
+            4,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            9
+          ],
+          "end": [
+            6,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            9
+          ],
+          "end": [
+            6,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            7
+          ],
+          "end": [
+            5,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            7
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            5
+          ],
+          "end": [
+            4,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            3
+          ],
+          "end": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter N",
+    "strategy": "Drawing program",
+    "score": 0,
+    "status": "Failure",
+    "error": "Invalid structure or values",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 1,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 9
+        },
+        {
+          "op": "close_path"
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter Z",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "letter Z",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            6,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            6
+          ],
+          "end": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "letter Z",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 4,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 4,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 9
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "smiley face",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "smiley face",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            7,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            5,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            3
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            3,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "end": [
+            7,
+            7
+          ],
+          "start": [
+            3,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "smiley face",
+    "strategy": "Drawing program",
+    "score": 0,
+    "status": "Failure",
+    "error": "500 Server Error: Internal Server Error for url: http://172.23.16.1:11434/api/generate",
+    "output": null
+  },
+  {
+    "prompt": "plus sign",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "plus sign",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            2,
+            2
+          ],
+          "end": [
+            8,
+            8
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "plus sign",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "cross",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          5,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "cross",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            9,
+            9
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "cross",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 5,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 8
+        },
+        {
+          "op": "line_to",
+          "x": 8,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 5
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "stairs",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "stairs",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            9,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            9,
+            3
+          ],
+          "end": [
+            1,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            2,
+            3
+          ],
+          "end": [
+            8,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            4
+          ],
+          "end": [
+            7,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            5
+          ],
+          "end": [
+            6,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            6
+          ],
+          "end": [
+            5,
+            8
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            7
+          ],
+          "end": [
+            4,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            8
+          ],
+          "end": [
+            3,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8,
+            9
+          ],
+          "end": [
+            2,
+            9
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "stairs",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 1,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 9,
+          "y": 5
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "flag",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "flag",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "rectangle",
+          "start": [
+            3.5,
+            3.5
+          ],
+          "end": [
+            6.5,
+            6.5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            5,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            4
+          ],
+          "end": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            5,
+            4
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            5
+          ],
+          "end": [
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "flag",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 2
+        },
+        {
+          "op": "line_to",
+          "x": 2,
+          "y": 10
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "envelope",
+    "strategy": "Raw coordinates",
+    "score": 0,
+    "status": "Failure",
+    "error": "HTTPConnectionPool(host='172.23.16.1', port=11434): Read timed out. (read timeout=120)",
+    "output": null
+  },
+  {
+    "prompt": "envelope",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            9,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            1,
+            9
+          ],
+          "end": [
+            9,
+            1
+          ]
+        },
+        {
+          "type": "rectangle",
+          "start": [
+            1,
+            1
+          ],
+          "end": [
+            9,
+            9
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "envelope",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 2
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 3
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "boat",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          8,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "boat",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "rectangle",
+          "start": [
+            3,
+            2.5
+          ],
+          "end": [
+            5,
+            5.5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "boat",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 3
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "tree",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "tree",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            1,
+            5
+          ],
+          "end": [
+            4,
+            10
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            10
+          ],
+          "end": [
+            6,
+            13
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            13
+          ],
+          "end": [
+            8,
+            12
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8,
+            12
+          ],
+          "end": [
+            9,
+            7
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            9,
+            7
+          ],
+          "end": [
+            7,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            3
+          ],
+          "end": [
+            5,
+            2
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            5,
+            2
+          ],
+          "end": [
+            3,
+            3
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            3,
+            3
+          ],
+          "end": [
+            2,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "tree",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 7
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "rocket",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "rocket",
+    "strategy": "Primitives",
+    "score": 0,
+    "status": "Failure",
+    "error": "HTTPConnectionPool(host='172.23.16.1', port=11434): Read timed out. (read timeout=120)",
+    "output": null
+  },
+  {
+    "prompt": "rocket",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 6
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 4
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 9
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "crown",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "crown",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "rectangle",
+          "start": [
+            4,
+            2
+          ],
+          "end": [
+            6,
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "crown",
+    "strategy": "Drawing program",
+    "score": 0,
+    "status": "Failure",
+    "error": "Invalid structure or values",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 10,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 10
+        },
+        {
+          "op": "close_path"
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "lightning bolt",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "lightning bolt",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            3,
+            1
+          ],
+          "end": [
+            7,
+            9
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            7,
+            9
+          ],
+          "end": [
+            3,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "lightning bolt",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 9
+        },
+        {
+          "op": "line_to",
+          "x": 4,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 9,
+          "y": 6
+        },
+        {
+          "op": "line_to",
+          "x": 2,
+          "y": 10
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "simple flower",
+    "strategy": "Raw coordinates",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          9,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "prompt": "simple flower",
+    "strategy": "Primitives",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "operations": [
+        {
+          "type": "line",
+          "start": [
+            2,
+            2
+          ],
+          "end": [
+            6,
+            6
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6,
+            6
+          ],
+          "end": [
+            4,
+            4
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            2,
+            2
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4,
+            4
+          ],
+          "end": [
+            6,
+            6
+          ],
+          "offset": 0.5
+        },
+        {
+          "type": "line",
+          "start": [
+            2,
+            2
+          ],
+          "end": [
+            4,
+            4
+          ],
+          "offset": 0.5
+        },
+        {
+          "type": "arc",
+          "center": [
+            3,
+            3
+          ],
+          "radius": 1.5,
+          "startAngle": 0,
+          "endAngle": 3.14159,
+          " clockwise": false
+        }
+      ]
+    }
+  },
+  {
+    "prompt": "simple flower",
+    "strategy": "Drawing program",
+    "score": 100,
+    "status": "Success",
+    "error": "",
+    "output": {
+      "program": [
+        {
+          "op": "move_to",
+          "x": 3,
+          "y": 5
+        },
+        {
+          "op": "line_to",
+          "x": 4,
+          "y": 7
+        },
+        {
+          "op": "line_to",
+          "x": 6,
+          "y": 4
+        },
+        {
+          "op": "line_to",
+          "x": 8,
+          "y": 3
+        },
+        {
+          "op": "line_to",
+          "x": 7,
+          "y": 1
+        },
+        {
+          "op": "line_to",
+          "x": 5,
+          "y": 4
+        },
+        {
+          "op": "line_to",
+          "x": 3,
+          "y": 6
+        }
+      ]
+    }
+  }
+]
